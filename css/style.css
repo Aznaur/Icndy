@@ -6,7 +6,9 @@ body {
 }
 
 *{
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 img {
@@ -119,17 +121,26 @@ input[type="radio"].visually-hidden {
   margin-bottom: 150px;
 }
 
-.up-down {
-  position: relative;
+.brands {
+  display: flex;
+  margin-top: 60px;
 }
 
-.up-down::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  margin-left: -36.6px;
-  width: 63px;
-  height: 34px;
-  background-image: url("../img/arrow.png");
+.brands-list-left{
+  width: 730px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.brands-list-right {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
