@@ -4,3 +4,132 @@ body {
 
   font-family: "Open Sans", sans-serif;
 }
+
+*{
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.main-header {
+  width: 100%;
+  height: 615px;
+  background-image: url("../img/background-header.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size:cover;
+  padding-top: 30px;
+}
+
+
+.container {
+  max-width: 1115px;
+  margin: 0 auto;
+}
+
+
+
+.main-navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.main-navigation a:hover {
+  color: #f84545;
+}
+
+.logo-index {
+  width: 224px;
+  height: 90px;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 180px;
+}
+
+
+.cite-navigation  {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cite-navigation li {
+  margin-right: 52px;
+}
+
+.cite-navigation li:last-child {
+  margin-right: 0;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-content p {
+  margin: 0;
+  padding: 0;
+}
+
+.header-content .title-main {
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+  letter-spacing: 26.4px;
+  margin-bottom: 30px;
+}
+
+.header-content .title-second {
+  font-size: 22px;
+  letter-spacing: 8.8px;
+  color: #f84545;
+  margin-bottom: 150px;
+}
+
+.up-down {
+  position: relative;
+}
+
+.up-down::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -36.6px;
+  width: 63px;
+  height: 34px;
+  background-image: url("../img/arrow.png");
+}
