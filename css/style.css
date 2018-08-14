@@ -338,3 +338,69 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
 }
+
+
+.navigation,
+.social-block-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation a,
+.social-block-list a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.navigation a {
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 4.5px;
+}
+
+.navigation a:hover {
+  color: red;
+}
+
+.wrapper {
+  min-height: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigation li {
+  margin-right: 52px;
+}
+
+.navigation li:last-of-type {
+  margin-right: 0;
+}
+
+.social-block-list {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-block-list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 43px;
+  height: 43px;
+}
+
+.social-block-list a:hover {
+  background: #000000;
+}
+
+.social-block-list a:hover path {
+  fill: #ffffff;
+}
