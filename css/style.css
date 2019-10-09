@@ -50,16 +50,12 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat;
   background-position: top center;
   background-size:cover;
-  padding-top: 30px;
 }
-
 
 .container {
   max-width: 1115px;
   margin: 0 auto;
 }
-
-
 
 .main-navigation ul{
   margin: 0;
@@ -89,8 +85,8 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   margin-bottom: 180px;
   padding: 0 10px;
+  padding-top: 30px;
 }
-
 
 .cite-navigation  {
   display: flex;
