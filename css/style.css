@@ -45,7 +45,7 @@ input[type="radio"].visually-hidden {
 
 .main-header {
   width: 100%;
-  height: 615px;
+  height: 100vh;
   background-image: url("../img/background-header.jpg");
   background-repeat: no-repeat;
   background-position: top center;
